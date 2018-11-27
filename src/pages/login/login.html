@@ -1,0 +1,72 @@
+ 
+<ion-header>
+  <ion-navbar color="header">
+    <ion-title text-center>
+      Manna Irrigation Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="background" padding>
+  <ion-list >
+      <ion-row >
+          <ion-col></ion-col>
+          <ion-col  >
+            <img src="assets/imgs/logo.png"/>
+          </ion-col>
+          <ion-col></ion-col>
+        </ion-row>
+    <form novalidate [formGroup]="loginForm">
+      <ion-item class="Field">
+        <ion-label floating>Email Address</ion-label>
+        <ion-input [(ngModel)]="objUserLogin.email" formControlName="email" type="text"  clearInput ></ion-input>
+      </ion-item>
+        <ion-item no-lines *ngIf="( loginForm.get('email').hasError('required') || loginForm.get('email').hasError('email') ) && loginForm.get('email').touched">
+          <div class="error" *ngIf="loginForm.get('email').hasError('required') && loginForm.get('email').touched">
+            Email is required
+          </div>
+          <div class="error" *ngIf="loginForm.get('email').hasError('email') && loginForm.get('email').touched">
+            Please enter valid email
+          </div>
+        </ion-item>
+      <div class="padding-3"></div>
+      <ion-item class="Field">
+        <ion-label floating>Password</ion-label>
+        <ion-input [(ngModel)]="objUserLogin.password" formControlName="password" clearInput type="{{type}}"></ion-input>
+        <button
+          ion-button
+          clear
+          color="dark"
+          type="button"
+          item-right
+          (click)="showPassword()"
+        >
+          <ion-icon>
+            <img
+              class="View-Pass-Icon"
+              *ngIf="type == 'text'"
+              src="assets/imgs/view-pass-icon.svg"
+            />
+            <img
+              class="Hide-Pass-Icon"
+              *ngIf="type == 'password'"
+              src="assets/imgs/hide-pass-icon.svg"
+            />
+          </ion-icon>
+        </button>
+      </ion-item>
+     
+    </form>
+  </ion-list>
+  <div padding>
+    <button (click)="btnLogin()" [disabled]="loginForm.invalid" class="btn-lg" ion-button color="secondary" block>Log In</button>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title text-center>
+    <small>  App Version : {{mannaApi.appVersion}}</small> 
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

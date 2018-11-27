@@ -1,0 +1,209 @@
+[
+    {
+      "id": 3,
+      "creation_date": "2018-01-28T06:55:47.406Z",
+      "name": "Megido - Har",
+      "alt_image_source_tmpl": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.jpg",
+      "ndvi_tile_uri": "https://tiles.cropio.com/manna_qa_ver2/s/s2b/ndvi/field_groups/3/date/20181117",
+      "date_ndvi": "2018-11-17",
+      "area": 77.3,
+      "bounding_box": {
+        "center": {
+          "lat": 32.599550556821896,
+          "lng": 35.11897802352905
+        },
+        "max": {
+          "lat": 32.6048381255221,
+          "lng": 35.193350315094
+        },
+        "min": {
+          "lat": 32.5942629881217,
+          "lng": 35.0446057319641
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": "Australia - Total Eden",
+      "alt_image_source_tmpl": "https://b.tiles.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA",
+      "ndvi_tile_uri": "https://tiles.cropio.com/manna_qa_ver2/s/l8/ndvi/field_groups/4/date/20181121",
+      "date_ndvi": "2018-11-21",
+      "creation_date": "2018-01-28T08:02:26.644Z",
+      "area": 376.8,
+      "bounding_box": {
+        "center": {
+          "lat": -34.13325702687045,
+          "lng": 140.7405762848095
+        },
+        "max": {
+          "lat": -34.1000783358891,
+          "lng": 140.813392915871
+        },
+        "min": {
+          "lat": -34.1664357178518,
+          "lng": 140.667759653748
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Brazil - Fassa",
+      "alt_image_source_tmpl": "https://b.tiles.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA",
+      "ndvi_tile_uri": "https://tiles.cropio.com/manna_qa_ver2/s/s2a/ndvi/field_groups/5/date/20181123",
+      "date_ndvi": "2018-11-23",
+      "creation_date": "2018-01-28T08:16:55.951Z",
+      "area": 361,
+      "bounding_box": {
+        "center": {
+          "lat": -16.263154758176398,
+          "lng": -45.2035456024115
+        },
+        "max": {
+          "lat": -16.1805016049708,
+          "lng": -45.0899614693279
+        },
+        "min": {
+          "lat": -16.345807911382,
+          "lng": -45.3171297354951
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": "USA - Bennet and Benenet",
+      "alt_image_source_tmpl": "https://b.tiles.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA",
+      "ndvi_tile_uri": "https://tiles.cropio.com/manna_qa_ver2/s/s2a/ndvi/field_groups/8/date/20181118",
+      "date_ndvi": "2018-11-18",
+      "creation_date": "2018-01-28T11:18:53.126Z",
+      "area": 655.3,
+      "bounding_box": {
+        "center": {
+          "lat": 36.2439291625119,
+          "lng": -119.8833811283113
+        },
+        "max": {
+          "lat": 36.3645588347667,
+          "lng": -119.7451400756836
+        },
+        "min": {
+          "lat": 36.1232994902571,
+          "lng": -120.021622180939
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": "Spain - El Bercial",
+      "alt_image_source_tmpl": "https://b.tiles.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA",
+      "ndvi_tile_uri": "https://tiles.cropio.com/manna_qa_ver2/s/s2a/ndvi/field_groups/11/date/20181123",
+      "date_ndvi": "2018-11-23",
+      "creation_date": "2018-01-28T13:14:20.345Z",
+      "area": 45.7,
+      "bounding_box": {
+        "center": {
+          "lat": 38.902861323549644,
+          "lng": -6.858014166355135
+        },
+        "max": {
+          "lat": 38.9058344580075,
+          "lng": -6.85250759124756
+        },
+        "min": {
+          "lat": 38.8998881890918,
+          "lng": -6.86352074146271
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": "India - Ahmedabad",
+      "alt_image_source_tmpl": "https://b.tiles.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA",
+      "ndvi_tile_uri": "https://tiles.cropio.com/manna_qa_ver2/s/l8/ndvi/field_groups/14/date/20181124",
+      "date_ndvi": "2018-11-24",
+      "creation_date": "2018-02-14T12:21:51.616Z",
+      "area": 385.1,
+      "bounding_box": {
+        "center": {
+          "lat": 23.357446023414717,
+          "lng": 72.8566074371338
+        },
+        "max": {
+          "lat": 23.57358496022534,
+          "lng": 73.10242652893068
+        },
+        "min": {
+          "lat": 23.14130708660409,
+          "lng": 72.61078834533693
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": "Himatnagar",
+      "alt_image_source_tmpl": "https://b.tiles.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA",
+      "ndvi_tile_uri": "https://tiles.cropio.com/manna_qa_ver2/s/s2a/ndvi/field_groups/17/date/20181124",
+      "date_ndvi": "2018-11-24",
+      "creation_date": "2018-03-08T05:35:45.758Z",
+      "area": 23.8,
+      "bounding_box": {
+        "center": {
+          "lat": 23.6120968351486,
+          "lng": 72.941290140152
+        },
+        "max": {
+          "lat": 23.6199121608565,
+          "lng": 72.9476952552796
+        },
+        "min": {
+          "lat": 23.6042815094407,
+          "lng": 72.9348850250244
+        }
+      }
+    },
+    {
+      "id": 22,
+      "name": "West Galili",
+      "alt_image_source_tmpl": "https://b.tiles.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA",
+      "ndvi_tile_uri": "https://tiles.cropio.com/manna_qa_ver2/s/s2b/ndvi/field_groups/22/date/20181117",
+      "date_ndvi": "2018-11-17",
+      "creation_date": "2018-04-06T07:51:18.456Z",
+      "area": 157.6,
+      "bounding_box": {
+        "center": {
+          "lat": 32.9511223881714,
+          "lng": 35.1099586491182
+        },
+        "max": {
+          "lat": 32.964770845835,
+          "lng": 35.1236057272763
+        },
+        "min": {
+          "lat": 32.9374739305078,
+          "lng": 35.0963115709601
+        }
+      }
+    },
+    {
+      "id": 40,
+      "name": "2018-11-05",
+      "alt_image_source_tmpl": "https://b.tiles.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.jpg?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA",
+      "ndvi_tile_uri": "https://tiles.cropio.com/manna_qa_ver2/s/s2b/ndvi/field_groups/40/date/20181117",
+      "date_ndvi": "2018-11-17",
+      "creation_date": "2018-11-05T07:11:25.198Z",
+      "area": 72.2,
+      "bounding_box": {
+        "center": {
+          "lat": 32.651697091831096,
+          "lng": 35.24018278486203
+        },
+        "max": {
+          "lat": 32.65527428433987,
+          "lng": 35.25218945278069
+        },
+        "min": {
+          "lat": 32.64811989932232,
+          "lng": 35.22817611694337
+        }
+      }
+    }
+  ]

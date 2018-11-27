@@ -1,14 +1,38 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+  <ion-navbar color="header">
+      <ion-buttons end>
+          <button ion-button icon-only>
+            <ion-badge color="secondary" item-right> {{arrFarms.length}}</ion-badge>
+          </button>
+          <button (click)="doLogOut()" ion-button icon-only>
+            <ion-icon name="md-log-out"></ion-icon>
+          </button>
+        </ion-buttons>
+    <ion-title> Farms list </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content class="background" padding>
+   
+  <ion-list  >
+      <ion-list-header *ngFor="let item of arrFarms; let ind01=index" no-lines no-padding>
+
+        <button ion-item (click)="toggleSection(ind01)" detail-none [ngClass]="{'section-active':item.open , 'section':!item.open}">
+          <ion-icon item-left name="arrow-forward" *ngIf="!item.open || !item.children" ></ion-icon>  
+          <ion-icon item-left name="arrow-down" *ngIf="item.open && item.children" ></ion-icon>  
+          {{item.name}}
+        </button>
+
+        <!--children area-->
+
+        <ion-list *ngIf="item.children && item.open"  >
+             <ion-item   *ngFor="let child of item.children ; let ind02 =index"  [ngClass]="(   ind02 < item.children.length-1) ? 'border-item'  : ''">
+                {{child.name}}
+             </ion-item>
+        </ion-list>
+         
+      </ion-list-header>
+
+  </ion-list>
+
 </ion-content>

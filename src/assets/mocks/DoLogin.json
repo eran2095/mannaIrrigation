@@ -1,0 +1,30 @@
+{
+    "user_info": {
+      "id": 27962,
+      "username": "gil_1260_com",
+      "email": "gil@1260.com",
+      "locale": {
+        "uom": "recom_volume",
+        "profile_view": "list-view",
+        "locale": "locale.name.europe",
+        "language": 1,
+        "language_val": "eng_us",
+        "distance_units": "km",
+        "area_units": "ha",
+        "temperature_units": "celsius",
+        "number_format": "0,0.00",
+        "date_format": "DD/MM/YYYY",
+        "time_format": "HH:MM",
+        "water_units": "mm",
+        "volume_units": "m3",
+        "length_units": "m",
+        "last_update": "2018-11-26T14:40:19.000Z"
+      },
+      "status": "admin",
+      "creation_date": "2018-04-04",
+      "email_notif": 0,
+      "eula_accepted": 1
+    },
+    "user_api_token": "zNAvWkDz_1HE2j4m_Ndg",
+    "company": "manna_qa_ver2"
+  }

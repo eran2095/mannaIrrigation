@@ -1,3 +1,28 @@
 page-home {
+.padding-10{
+    padding: 10px;
+}
 
+.list-header{
+    margin-bottom: 6px;
+}
+.section{
+    background: #fff;
+    color: #000;
+    margin-bottom: 4px;
+}
+  .section-active{
+      background: color($colors,primary);
+      color: #fff;
+  }
+   
+  .border-item{
+    border-bottom: 1px solid grey !important;
+  }
+  .label{
+      margin: 0px;
+  }
+  .list{
+      margin-bottom: 4px;
+  }
 }
